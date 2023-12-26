@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1,
+        "car": {
+            "id": 1,
+            "category": "Luxury",
+            "brand": "Mercedes-AMG",
+            "model": "E63",
+            "year": 2021,
+            "available": false,
+            "carPlace": {
+                "id": 1,
+                "country": "Russia",
+                "city": "Moscow",
+                "address": "Red Square",
+                "phone": "+7 999 999 99 99"
+            },
+            "price": 2000.0
+        },
+
+        "user": {
+            "id": 1,
+            "fio": "Hrenov Hren Hrenych",
+            "email": "hren@mail.ru",
+            "phone": "899978651234",
+            "passport": "12345678",
+            "password": "$2a$10$12YZxq2FmwNL/9uvijAyBuv0ZeEFgkTTSyOKXvGQbzXgkgEjYaJUe",
+            "roles": "ROLE_ADMIN"
+        },
+
+        "localDate": "25.05.2023",
+        "countDays": 5,
+        "sum": 10000.0
+    },
+
+    {
+        "id": 2,
+        "car": {
+            "id": 2,
+            "category": "Luxury",
+            "brand": "Mercedes-AMG",
+            "model": "E63",
+            "year": 2021,
+            "available": false,
+            "carPlace": {
+                "id": 1,
+                "country": "Russia",
+                "city": "Moscow",
+                "address": "Red Square",
+                "phone": "+7 999 999 99 99"
+            },
+            "price": 2000.0
+        },
+
+        "user": {
+            "id": 1,
+            "fio": "Hrenov Hren Hrenych",
+            "email": "hren@mail.ru",
+            "phone": "899978651234",
+            "passport": "12345678",
+            "password": "$2a$10$12YZxq2FmwNL/9uvijAyBuv0ZeEFgkTTSyOKXvGQbzXgkgEjYaJUe",
+            "roles": "ROLE_ADMIN"
+        },
+
+        "localDate": "25.05.2023",
+        "countDays": 5,
+        "sum": 10000.0
+    },
+
+    {
+        "id": 1,
+        "car": {
+            "id": 1,
+            "category": "Luxury",
+            "brand": "Mercedes-AMG",
+            "model": "E63",
+            "year": 2021,
+            "available": false,
+            "carPlace": {
+                "id": 1,
+                "country": "Russia",
+                "city": "Moscow",
+                "address": "Red Square",
+                "phone": "+7 999 999 99 99"
+            },
+            "price": 2000.0
+        },
+
+        "user": {
+            "id": 1,
+            "fio": "Hrenov Hren Hrenych",
+            "email": "hren@mail.ru",
+            "phone": "899978651234",
+            "passport": "12345678",
+            "password": "$2a$10$12YZxq2FmwNL/9uvijAyBuv0ZeEFgkTTSyOKXvGQbzXgkgEjYaJUe",
+            "roles": "ROLE_ADMIN"
+        },
+
+        "localDate": "25.05.2023",
+        "countDays": 5,
+        "sum": 10000.0
+    },
+
+    {
+        "id": 2,
+        "car": {
+            "id": 2,
+            "category": "Luxury",
+            "brand": "Mercedes-AMG",
+            "model": "E63",
+            "year": 2021,
+            "available": false,
+            "carPlace": {
+                "id": 1,
+                "country": "Russia",
+                "city": "Moscow",
+                "address": "Red Square",
+                "phone": "+7 999 999 99 99"
+            },
+            "price": 2000.0
+        },
+
+        "user": {
+            "id": 1,
+            "fio": "Hrenov Hren Hrenych",
+            "email": "hren@mail.ru",
+            "phone": "899978651234",
+            "passport": "12345678",
+            "password": "$2a$10$12YZxq2FmwNL/9uvijAyBuv0ZeEFgkTTSyOKXvGQbzXgkgEjYaJUe",
+            "roles": "ROLE_ADMIN"
+        },
+
+        "localDate": "25.05.2023",
+        "countDays": 5,
+        "sum": 10000.0
+    }
+]

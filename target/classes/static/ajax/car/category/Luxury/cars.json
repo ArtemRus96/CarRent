@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "category": "Luxury",
+        "brand": "Mercedes-AMG",
+        "model": "E63",
+        "year": 2021,
+        "available": false,
+        "carPlace": {
+            "id": 1,
+            "country": "Russia",
+            "city": "Moscow",
+            "address": "Red Square",
+            "phone": "+7 999 999 99 99"
+        },
+        "price": 2000.0
+    },
+
+    {
+        "id": 2,
+        "category": "Luxury-2",
+        "brand": "Mercedes-AMG-2",
+        "model": "E624",
+        "year": 2022,
+        "available": true,
+        "carPlace": {
+            "id": 1,
+            "country": "Russia",
+            "city": "Moscow",
+            "address": "Red Square",
+            "phone": "+7 999 999 99 99"
+        },
+        "price": 4000.0
+    },
+
+    {
+        "id": 1,
+        "category": "Luxury",
+        "brand": "Mercedes-AMG",
+        "model": "E63",
+        "year": 2021,
+        "available": false,
+        "carPlace": {
+            "id": 1,
+            "country": "Russia",
+            "city": "Moscow",
+            "address": "Red Square",
+            "phone": "+7 999 999 99 99"
+        },
+        "price": 2000.0
+    },
+
+    {
+        "id": 2,
+        "category": "Luxury-2",
+        "brand": "Mercedes-AMG-2",
+        "model": "E624",
+        "year": 2022,
+        "available": true,
+        "carPlace": {
+            "id": 1,
+            "country": "Russia",
+            "city": "Moscow",
+            "address": "Red Square",
+            "phone": "+7 999 999 99 99"
+        },
+        "price": 4000.0
+    },
+
+    {
+        "id": 1,
+        "category": "Luxury",
+        "brand": "Mercedes-AMG",
+        "model": "E63",
+        "year": 2021,
+        "available": false,
+        "carPlace": {
+            "id": 1,
+            "country": "Russia",
+            "city": "Moscow",
+            "address": "Red Square",
+            "phone": "+7 999 999 99 99"
+        },
+        "price": 2000.0
+    }
+]

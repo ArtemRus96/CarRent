@@ -1,0 +1,38 @@
+package com.artem.saplin.service;
+
+import com.artem.saplin.model.CarPlace;
+import com.artem.saplin.repository.CarPlaceRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+
+@Service
+public class CarPlaceServiceImpl implements CarPlaceService {
+    private CarPlaceRepository carPlaceRepository;
+
+    @Autowired
+    public void setCarPlaceRepository(CarPlaceRepository carPlaceRepository) {
+        this.carPlaceRepository = carPlaceRepository;
+    }
+
+    @Override
+    public void add(CarPlace carPlace) {
+        try {
+            this.carPlaceRepository.save(carPlace);
+        } catch (Exception e) {
+            throw new IllegalArgumentException("This car place has already added!");
+        }
+    }
+
+    @Override
+    public CarPlace get(long id) {
+        return this.carPlaceRepository.findById(id).orElseThrow(()
+                -> new IllegalArgumentException("Car place does not exists!"));
+    }
+
+    @Override
+    public List<CarPlace> get() {
+        return this.carPlaceRepository.findAll();
+    }
+}
